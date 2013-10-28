@@ -1,3 +1,10 @@
+/**
+
+TODO: - refactor this file
+      - add section indexes
+**/
+
+
 /** badges **/ 
 .user_badges img.badge{
   width: 45px;
@@ -46,8 +53,8 @@ div#admin-menu .dropdown li > span:hover {
 #navbar #edit-keys,
 #navbar #edit-keys2{
   width: 225px;
-  height: 16px;
-  margin-top: 4px;
+  height: 18px; /* 16px in dark bg */
+  margin-top: 3px; /* 4px in dark bg */
 }
 #navbar button.btn.btn-inverse {
   height: 27px;
@@ -656,10 +663,16 @@ div#comments div.comment a>img{
   min-width:500px;
 }
 /**** hidden elemments ****/
+body.page-people .commons-search-solr-user-results>h3,
+body.page-people .commons-search-solr-user-results .profile >h3,
+body.page-people .commons-search-solr-user-results .profile >dl{
+  /** badges **/
+  display:none;
+}
+
 #edit-comment-body-und-0-format,
 #edit-og-group-ref,
-.full-form {
-  
+.full-form {  
   /*FIXME display:none; */ 
 }
 /**** hidden elemments ****/
