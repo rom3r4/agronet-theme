@@ -94,7 +94,7 @@ if ($user->uid) {
 							</a>
 
 							<ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="/user"><i class="icon-bookmark"></i>  Profile </a></li>						<li role="presentation"><a role="menuitem" tabindex="-1" href="/events"><i class="icon-calendar"></i> Events </a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="/user"><i class="icon-bookmark"></i>  Profile </a></li>
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="/people"><i class="icon-globe"></i> People directory </a></li>
 								<li role="presentation" class="divider"></li>
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="/user/logout"><i class=" icon-off"></i> Log out </a></li>
@@ -214,8 +214,8 @@ if ($user->uid) {
 -->
 	</div>
     
-    <a href="http://europa.eu"><img src="http://voa3r.eu/images/flag_eu.gif" border="0" style="border: 0; float: left;"></a>
-    <a href="http://ec.europa.eu/research/fp7/"><img src="http://voa3r.eu/images/fp7.gif" border="0" style="border: 0; float: left;"></a>
+    <a href="//europa.eu"><img src="//voa3r.eu/images/flag_eu.gif" border="0" style="border: 0; float: left;"></a>
+    <a href="//ec.europa.eu/research/fp7/"><img src="//voa3r.eu/images/fp7.gif" border="0" style="border: 0; float: left;"></a>
     <?php print "&nbsp;&nbsp;" . $copyright ?>
      <a href="/about" title="About us">About us</a><!-- | <a href="/project" class="">The Project</a>--> | <a href="/contact" class="">Contact</a> | <a href="/legal" class="colorbox-load">Legal Information</a>
       <div class="span10 marlef01">
