@@ -1,4 +1,4 @@
-name = Tweme
+name = Tweme2
 description = Lightweight responsive theme based on Twitter Bootstrap.
 core = 7.x
 
@@ -35,6 +35,6 @@ regions[footer] = Footer
 ; Information added by drupal.org packaging script on 2013-06-29
 version = "7.x-1.2-alpha1-voa3r"
 core = "7.x"
-project = "tweme"
+project = "tweme2"
 datestamp = "1372529459"
 
