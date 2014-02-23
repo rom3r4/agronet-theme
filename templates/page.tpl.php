@@ -202,22 +202,12 @@ if ($user->uid) {
 	<div class="container">
     <div class="footer-links pull-right">
 
-<!--
-      <?php if ($feed_icons): ?><?php print $feed_icons ?><?php endif ?>
-      <?php if ($secondary_menu): ?>
-			<?php foreach ($secondary_menu as $item): ?>
-			<?php print l($item['title'], $item['href']) ?>
-			<?php endforeach ?>
-      <a href="#"><?php print t('Back to top') ?> </a>
-      <?php endif ?>
-    </div>
--->
 	</div>
     
     <a href="//europa.eu"><img src="/sites/all/themes/tweme/assets/images/flag_eu.gif" border="0" style="border: 0; float: left;"></a>
     <a href="//ec.europa.eu/research/fp7/"><img src="/sites/all/themes/tweme/assets/images/fp7.gif" border="0" style="border: 0; float: left;"></a>
-    <?php print "&nbsp;&nbsp;" . $copyright ?>
-     <a href="/about" title="About us">About us</a><!-- | <a href="/project" class="">The Project</a>--> | <a href="/contact" class="">Contact</a> | <a href="/legal" class="colorbox-load">Legal Information</a>
+    <?php print "&nbsp;&nbsp;" . date("Y").' '. $copyright ?>
+     <a href="/about-us" title="About us">About us</a> | <a href="/contact" class="">Contact</a> | <a href="/legal" class="colorbox-load">Legal Information</a>
       <div class="span10 marlef01">
           The research within the project AgroNet leading to these results has received funding from the ICT Policy Support Programme (ICT PSP), Theme 4 - Open access to scientific information, grant agreement n 250525 - All rights reserved
       </div>
